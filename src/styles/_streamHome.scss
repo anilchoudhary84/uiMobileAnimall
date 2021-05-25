@@ -1,0 +1,189 @@
+.page-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .card-list {
+    padding-top: 70px;
+  
+    .bwm-card {
+      border: none;
+  
+      .card-body {
+        padding: 8px 2px;
+  
+        .card-subtitle {
+          margin: 0;
+          font-weight: 500;
+          font-size: 12px;
+          text-transform: uppercase;
+        }
+  
+        .card-title {
+          font-size: 19px;
+          margin: 3px 0;
+        }
+  
+        .card-text {
+          font-size: 14px;
+          font-weight: 300;
+          color: #7e7e7e;
+          margin-bottom: 0;
+        }
+      }
+    }
+  } 
+
+.rowContainer{
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-bottom: 15px;
+  
+}
+
+.moviebox{
+  width:25%;
+   margin:5px;
+     display: inline-block;
+      float: none
+}
+
+
+
+
+.movieDetailsBox{
+  width:80%;
+  height: 400px;
+   margin:5px;
+   background-color:#C0C0C0
+
+}
+.movieDetailsBox img{
+float: left;
+  height: 380px;
+  width: 30%;
+  margin:1%;
+}
+.detailsContentBox{
+width:65%;
+margin:1%;
+height: 380px;
+float: right;
+background-color: transparent;
+
+}
+.titleBoxRow{
+width: 100%;
+height: auto;
+margin:auto;
+float: left;
+background-color: transparent;
+
+}
+.left{text-align: left;}
+.right{text-align: right;}
+.titleBoxColumn100{
+  width: 100%;
+height: auto;
+margin:auto;
+float: left;
+
+font-size: 14px;
+text-align: justify;
+background-color: transparent;
+}
+
+.titleBoxColumn{
+  width: 50%;
+height: auto;
+margin:auto;
+float: left;
+background-color: transparent;
+}
+.spacer{
+  width:100%;
+  height:20px
+}
+.movietitle{
+  width: 80%;
+  float: left;
+  color: #000000;
+  margin: auto;
+  font-size: 16px;
+  word-wrap:break-word;
+}
+.generTitle{
+  color: orange;
+font-size: 18px;
+}
+p{
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-all;
+  white-space: normal;
+  display:block;
+
+}
+
+.movielanguage{
+  float: left;
+  width: 100%;
+  font-size: 16px;
+  color: orange;
+  margin: auto;
+}
+
+
+
+@media (max-width: 767px) {
+  .generTitle{
+  font-size: 16px;
+  }
+
+  .movietitle{
+    width: 80%;
+    float: left;
+    color: #000000;
+    margin: auto;
+    font-size: 12px;
+    word-wrap:break-word;
+  }
+
+  .movielanguage{
+    float: left;
+    width: 100%;
+    font-size: 10px;
+    color: orange;
+    margin: auto;
+  }
+
+  .movieDetailsBox{
+    width:100%;
+    height: auto;
+     margin:5px;
+     background-color:#C0C0C0
+  
+  }
+
+  .movieDetailsBox img{
+      height: auto;
+      width: 100%;
+      margin:auto;
+    }
+    .detailsContentBox{
+    width:100%;
+    margin:auto;
+    padding: 10px;
+    height: auto;
+    float: right;
+    background-color: transparent;
+    
+    }
+
+
+
+
+}
+
+
